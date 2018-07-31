@@ -41,7 +41,7 @@ articleHeadline.classList.remove("hidden");
 };
 
 
-// slider
+// slider (dwa obrazki)
 
 var prevBtn = document.querySelector(".slider__prev");
 var nextBtn = document.querySelector(".slider__next");
