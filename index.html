@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8">
   <title>Warsztaty</title>
-  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="css/main.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
 
@@ -17,30 +17,58 @@
       <h1>SIT <span>ON</span> CHAIR</h1>
       <nav class="nav">
         <ul class="navbar">
-          <li><a href="#">O FIRMIE</a>
+          <li class="header__menu--element"><a href="#">O FIRMIE</a>
             <ul class="header__submenu">
             <li class-"header__subli"><a href="" class="header__sublink">Aktualności</a></li>
             <li class="header__subli"><a href="" class="header__sublink">Nasz team</a></li>
             <li class="header__subli"><a href="" class="header__sublink">Historia</a></li>
             </ul>
           </li>
-          <li><a href="#">GALERIA</a></li>
-          <li><a href="#">KONTAKT</a></li>
+          <li class="header__menu--element"><a href="#">GALERIA</a>
+            <ul class="header__submenu">
+            <li class-"header__subli"><a href="" class="header__sublink">Aktualności</a></li>
+            <li class="header__subli"><a href="" class="header__sublink">Nasz team</a></li>
+            <li class="header__subli"><a href="" class="header__sublink">Historia</a></li>
+            </ul>
+          </li>
+
+          <li class="header__menu--element"><a href="#">KONTAKT</a>
+            <ul class="header__submenu">
+            <li class-"header__subli"><a href="" class="header__sublink">Aktualności</a></li>
+            <li class="header__subli"><a href="" class="header__sublink">Nasz team</a></li>
+            <li class="header__subli"><a href="" class="header__sublink">Historia</a></li>
+            </ul>
+          </li>
+
         </ul>
       </nav>
     </div>
   </header>
 
   <section class="main">
-  <div class="container slider">
-    <img src="images/black_chair.png" alt="" class="image">
-    <article class="text">
-      <h2>SIT <span>ON</span> OUR <span>CHAIR</span></h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-<a href="#" class="seeMore">Zobacz więcej</a>
-</article>
-<button class="slider__prev"><</button>
-<button class="slider__next">></button>
+  <div class="container">
+    <div class="slider">
+      <ul>
+        <li>
+          <img src="images/black_chair.png" alt="" class="image">
+          <article class="text">
+            <h2>SIT <span>ON</span> OUR <span>CHAIR</span></h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <a href="#" class="seeMore">Zobacz więcej</a>
+          </article>
+        </li>
+        <li>
+          <img src="images/orange_chair.png" alt="" class="image">
+          <article class="text">
+            <h2>SIT <span>ON</span> OUR <span>CHAIR</span></h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <a href="#" class="seeMore">Zobacz więcej</a>
+          </article>
+        </li>
+      </ul>
+    </div>
+    <button class="slider__prev"><</button>
+    <button class="slider__next">></button>
   </div>
 </section>
 
@@ -108,4 +136,5 @@
   </div>
 </footer>
 
+<script src="js/app.js"></script>
 </body>
